@@ -240,15 +240,208 @@
 //     console.log("Happy birthday to you")
 
 // }
-happyBirthday()
-return statement
-let area;
-let width;
-let height;
-width=window.prompt('Enter width?');
-height=window.prompt('Enter height?')
-area=getArea(width,height)
-console.log("Area is",area)
-function getArea(width,height){
-   return width*height;
-}
+// happyBirthday()
+// return statement
+// let area;
+// let width;
+// let height;
+// width=window.prompt('Enter width?');
+// height=window.prompt('Enter height?')
+// area=getArea(width,height)
+// console.log("Area is",area)
+// function getArea(width,height){
+//    return width*height;
+// }
+// function add(x,y){
+//    return x+y;
+// }
+// function substract(x,y){
+//    return x-y
+// }
+// function multiply(x,y){
+//     return x*y
+// }
+// function divide(x,y){
+//    return x/y;
+// }
+// // console.log(divide(2,3))
+// function isEven(number){
+//       // if(number%2===0){
+//       //    return true;
+//       // }
+//       // else{
+//       //    return false
+//       // }
+//       return number % 2 ===0?true :false;
+
+// }
+// function isValidEmail(email){
+//          if(email.includes("@")){
+//             return true;
+//          }
+//          else{
+//             return false;
+//          }
+// }
+// console.log(isValidEmail("Brofake.com"))
+// let x=1;
+// let x=2;
+// const textBox=document.getElementById("textBox");
+// const fahren=document.getElementById("toFahrenheit");
+// const celsious=document.getElementById("toCelsius");
+// const result=document.getElementById("result");
+// let temp;
+
+// function convert(){
+//    if(fahren.checked){
+//         temp=Number(textBox.value)
+//         temp=temp*9/5+32;
+//         result.textContent=temp.toFixed(1)+ " F";
+//    }
+//    else if(celsious.checked){
+//                temp=Number(textBox.value)
+//         temp=(temp-32)*(5/9)
+//         result.textContent=temp.toFixed(1)+ " F";
+//    }
+//    else{
+//       result.textContent="Select a unit"
+//    }
+// }
+//Aray
+// let fruits=["apple","orange","banana","coconut"]
+// // for(let i=0;i<fruits.length;i++){
+// //        console.log(fruits[i])
+// // }
+// fruits.sort().reverse()
+// for(let fruit of fruits){
+//    console.log(fruit);
+// }
+// const matrix=[[1,2,3],
+//               [4,5,6],
+//               [7,8,9]]
+// matrix[0][0]='x'  
+// matrix[0][1]= 'o' 
+// matrix[0][2]='x' 
+// matrix[1][0]='o',
+// matrix[2][0]='x';
+// matrix[1][1]='o';
+// matrix[1][2]='o';
+// matrix[2][1]='o';
+// matrix[2][2]='x';
+
+// for(let row of matrix){
+//    const rowString=row.join('')
+//    console.log(row)
+// }
+//spread operator
+// let numbers=[1,2,3,4,5]
+// let maximum=Math.max(...numbers);
+// let minimum=Math.min(...numbers)
+// console.log(minimum)
+// let name="Rehinas M"
+// let letters=[...name].join("-")
+// console.log(letters)
+// let fruits=["apple","orange","banana"]
+// let vegetables=["carrots","calery","potet"]
+// let newfruits=[...fruits,...vegetables]
+
+// console.log(newfruits)
+// function openfridge(...foods){
+//   console.log(foods)
+// }
+// const food1="pizza"
+// const food2="hamburger"
+// const food3="hotdog"
+// const food4="sushi"
+// openfridge(food1,food2,food3,food4)
+// function sum(...numbers){
+//     let result=0;
+//     for(let number of numbers){
+//       result +=number
+//     }
+//     return result;
+
+// }
+// function getAvg(...numbers){
+//     let result=0;
+//     for(let number of numbers){
+//       result +=number
+//     }
+//     return result/numbers.length;
+
+// }
+// const total=getAvg(75,100,85,90,50);
+// console.log(`you'r totel is ${total}`)
+// function conmbainString(...strings){
+//    return strings.join(" ")
+// }jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+// const fullname=conmbainString("Mr","ajmal");
+// console.log(fullname)
+// function generatePassword(password_length,includeLowerCase,includeNumbers,includeUpperCase,includeSymbols){
+//    const lowerCase='abcdefghijklmnopqrstuvwxyz' 
+//    const upperCase='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+//    const number='0123456789'
+//    const symbol='@!~$#%^&*":;.,'
+//    let allowedchrs=" "
+//    let password=" "
+//    allowedchrs +=includeLowerCase?lowerCase:"";
+//    allowedchrs +=includeUpperCase?upperCase:"";
+//    allowedchrs +=includeNumbers?number:"";
+//    allowedchrs +=includeSymbols?symbol:"";
+//    if(password_length<=0){
+//       return `(password length must be at least 1)`
+//    }
+//    if(allowedchrs.length===0){
+//       return `(At least 1 set of charcter needs to be selected)`
+//    }
+//    for(let i=0;i<password_length;i++){
+//       const randomIndex=Math.random()
+//    }
+//    return'';
+// }
+// const password_length=12;
+// const includeLowerCase=false;
+// const includeUpperCase=false;
+// const includeSymbols=false;
+// const includeNumbers=false;
+// const password=generatePassword(password_length,includeLowerCase,includeUpperCase,includeNumbers,includeSymbols)
+// console.log(`generated password ${password}`)
+// function hello(callback){
+//      console.log("hello");
+//      callback()
+  
+// }
+// function leave(){
+//    console.log("leave")
+// }
+// function wait(){
+//    console.log("wait")
+// }
+// function goodbye(){
+//    console.log("good bye")
+// }
+// hello(goodbye);
+// sum(displaypage,1,2)
+// function sum(callback,x,y){
+//    let result=x+y;
+//    callback(result)
+// }
+// function displayConsole(result){
+//    console.log(result)
+// }
+// function displaypage(result){
+//    document.getElementById("myH1").textContent=result
+// }
+//callback funcion
+// function myFunction(arg){
+//   console.log(arg)
+// }
+// myFunction(10)
+// console.log("one")
+// const a=[2,3,5,6,7]
+// a.forEach(function myFunction(arg){
+//    console.log(arg)
+// })
+//  // call back registation
+
+// console.log("two")
