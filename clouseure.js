@@ -211,26 +211,103 @@
 //     console.log(getY())
 // }
 // outer();
+// function z(){
+//     var b=900;
+// function x(){
+//     var a=7;
+//     function y(){
+//         console.log(a,b)
+//     }
+//    y()
+// }
+// x()
+// }
+// z() 
+// var z=x() 
+// /console.log(z) 
+// function hello(){
+//    window.alert("Hello")
+// }
+// setTimeout(hello,3000)
 
+// const timeOutId=setTimeout(function(){window.alert("hi")},3000)
+// clearTimeout(timeOutId);
+// let timeoutId;
+// function startTimer(){
+//    timeoutId=  setTimeout(()=>{
+//         window.alert("hello")
+//     },3000)
+//     console.log("started")
+// }
+// function clearTimer(){
+//     clearTimeout(timeoutId)
+//     console.log("cleard")
 
+// }
+//time method-time tracker
+// console.time("test")
+// for(let i=0;i<1000000;i++){
 
+// }
+// console.timeEnd("test")
+// function loadData(){
+//     console.time("loadData")
+//     for(let i=0;i<10000;i++){
 
+//     }
+//     console.timeEnd("loadData")
+// }
+// loadData()
+// function processData(){
+//     console.time("processData")
+//     for(let i=0;i<1000;i++){
 
+//     }
+//     console.timeEnd("processData")
+// }
+// processData()
+// let number=123456.789;
+// number=number.toLocaleString("em-US")
+// number=number.toLocaleString("hi-IN")
+// number=number.toLocaleString("de-DE")
+// number=number.toLocaleString(undefined)
+// number=number.toLocaleString("em-US",{style:"currency",currency:'USD'})
+//  number=number.toLocaleString("hi-IN",{style:"currency",currency:'INA'})
+//  number=number.toLocaleString("de-DE",{style:"currency",currency:'EUR'})
+// console.log(number)
+//  function updateClock(){
+//     const now=new Date();
+//     let hours=now.getHours().toString().padStart(2,0)
+//     const meridiem=hours>=12 ? "PM":"AM";
+//     hours=hours%12||12;
+//     const minutes=now.getMinutes().toString().padStart(2,0)
+//     const seconds=now.getSeconds().toString().padStart(2,0)
+//     const timesString=`${hours}:${minutes}:${seconds} ${meridiem}`
+//     document.getElementById("clock").textContent=timesString;
+//  }
+// updateClock()
+// setInterval(updateClock,1000)
+// const dispaly=document.getElementById("display")
+// let timer=null;
+// let startTime=0;
+// let elapsedTime=0;
+// let isRunning=false;
+// function start(){
+//    if(isRunning){
+//     startTime=Date.now()-elapsedTime;
+//    }
+//    console.log(startTime)
+// }
+// start()
+// function stop(){
 
+// }
+// function reset(){
 
+// }
+// function update(){
 
-
-
-
-
-
-
-
-
-
-
-
-
+// }
 
 
 
