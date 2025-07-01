@@ -242,7 +242,70 @@
 //     }
     
 // })
-let button=document.querySelectorAll("myButtons")
-button.forEach(btn=>{
-    btn.classList.add("enabled")
-})         
+// let button=document.querySelectorAll("myButtons")
+// button.forEach(btn=>{
+//     btn.classList.add("enabled")
+// })         
+// const date=new Date(2000,8,21)
+// console.log(date)
+// const choice=["rock","paper","scissors"]
+// const playerDisplay=document.getElementById("playerDisplay")
+// const computerDisplay=document.getElementById("computerDisplay")
+// const resultDisplay=document.getElementById("resultDisplay")
+// function playGame(playerChoice){
+//     const computerChoice=choice[Math.floor(Math.random()*3)];
+//     let result=" ";
+//     if(playerChoice===computerChoice){s
+//         result="IT'S A TIE"
+//     }
+//     else{
+//         switch(playerChoice){
+//             case "rock":
+//                result = (computerChoice==="scissors")?"you win":"you lose";
+//                break;
+//             case "paper":
+//                result=(computerChoice==="paper")?"you win":"you lose";
+//               break;
+//             case 'scissors':
+//                 result=(computerChoice==="paper")?"you win":"you lose"
+
+//         } 
+//     }
+//     playerDisplay.textContent=`player:${playerChoice}`;
+//     computerDisplay.textContent=`computer:${computerChoice}`;
+//     resultDisplay.textContent=result;
+//     switch(result){
+//         case "you win":
+//         resultDisplay.classList.add("greenText");
+//         break;
+//         case "you lose":
+//             resultDisplay.classList.add("redText")
+//             break;
+//     }  
+// } 
+// const slides=document.querySelectorAll(".slides img")
+// let slideIndex=0;
+// let Intervalid=null;
+
+// function initializeSlider(){
+//   slides[slideIndex].classList.add("displaySlide")
+// }
+// function showSlider(){
+
+// }
+// function prevSlide(){
+
+// }
+// function nextSlide(){
+
+// }
+// initializeSlider()  
+const cart=["shoes","pants","kurta"];
+api.createOrder(cart,function(){
+     api.proceedToPayment(function (){
+        api.showOrderSummery(function(){
+             api.updateWallet()                                 
+        })
+     })
+});
+//paramid of doom                                                        
